@@ -1,20 +1,13 @@
 # Hospital Management System
 
-### _YouTube Video Link: [https://youtu.be/SwE4mxQxhEI](https://youtu.be/SwE4mxQxhEI)_
-
 ## Description-
-   In this Project we aim to solve the traditional issues of hospital management. The existing system provided paper based solution for keeping OPD records of patients and hospital staff, but it gives overload to Doctor, Receptionist and Administrator.  The main issues were inappropriate data keeping, time wastage in storage, retrieval also patients were unable to understand the prescription etc. These issues are solved by providing a separate user account for doctors and other staff. Keeping each patient’s data separate and track previous visits in a single click. 
+We hope to overcome traditional hospital management challenges with this project. The existing system provided a paper-based solution for keeping patient and hospital staff OPD records, but it overburdens doctors, receptionists, and administrators. The main concerns were improper data storage, time waste in storage, retrieval, and patients' inability to grasp the prescription, among other things. Provide a separate user account for doctors and other employees to address these issues. Keeping each patient's data separate and easily tracking past visits.
    
-   This project uses MYSQL as backend and is developed in Java so it provides features such as platform independence, high performance and security. It is a web application which mainly uses SpringMVC and Hibernate frameworks. 
-   
-   It provides some enhanced features such as: an easy interface to add, remove employees as well as it provides PDF of prescription. Thus, reducing need to manually write  and  sign  by doctor.  <br>
-  #### PPT Presentation: [click here](https://drive.google.com/file/d/1L6zUvNPXV4mYNnl2zLYyxvyz2RwoUt1G/view?usp=sharing)  <br>
-  #### Project SRS: [click here](https://drive.google.com/file/d/11DQDP_ZN2h7Cq3hiIRw3pCzPhR_VCL8p/view?usp=sharing)  <br>
-  #### Project Report: [click here](https://drive.google.com/file/d/128Qn3pqBFj84w6OXBSwuWXYpag_Wn0dT/view?usp=sharing)
+ This project is built in Java and uses MYSQL as its backend, providing platform independence, great performance, and security. It's a web application that primarily makes use of the SpringMVC and Hibernate frameworks.
+
+It has several improved capabilities, such as an easy interface for adding and removing personnel, as well as a PDF of the prescription. As a result, the doctor's requirement to manually write and sign is reduced.
 
 ## Technologies Used-
-
-![TechStack](https://github.com/rid17pawar/HospitalManagement/blob/master/readme_images/snapshots/techStack.png)
 
 
 ### 1. Front end Technologies:
@@ -70,56 +63,3 @@
       
   4. Password Encryption:
       - *_Bcrypt Encoding_* is used for password encryption. Bcrypt is a password hashing function designed by Niels Provos and David Mazières. It is based on the Blowfish cipher. Bcrypt uses adaptive hash algorithm to store password. BCrypt internally generates a random salt while encoding passwords and hence it is obvious to get different encoded results for the same string. But one common thing is that everytime it generates a String of length 60.
-
-
-## Snapshots-
-
-1. Homepage
-
-![Homepage](https://github.com/rid17pawar/HospitalManagement/blob/master/readme_images/snapshots/homepg.png)
-
-2. Login page
-
-![Login page](https://github.com/rid17pawar/HospitalManagement/blob/master/readme_images/snapshots/loginpg.png)
-
-3. Administrator Dashboard
-
-![Administrator Dashboard](https://github.com/rid17pawar/HospitalManagement/blob/master/readme_images/snapshots/adminDashboard.png)
-
-![Administrator All employee view](https://github.com/rid17pawar/HospitalManagement/blob/master/readme_images/snapshots/adminAll.png)
-
-4. Doctor Dashboard
-
-![Doctor Dashboard - patient observation](https://github.com/rid17pawar/HospitalManagement/blob/master/readme_images/snapshots/doctorObservation.png)
-
-![Doctor Dashboard - patient prescription](https://github.com/rid17pawar/HospitalManagement/blob/master/readme_images/snapshots/doctorPrescription.png)
-
-5. Receptionist Dashboard
-
-![Receptionist Dashboard search patient](https://github.com/rid17pawar/HospitalManagement/blob/master/readme_images/snapshots/receptionistSearch.png)
-
-![Receptionist Dashboard add patient to opd](https://github.com/rid17pawar/HospitalManagement/blob/master/readme_images/snapshots/receptionistAdd.png)
-
-## System Diagrams
-
-1. Usecase Diagram
-
-![Usecase Diagram](https://github.com/rid17pawar/HospitalManagement/blob/master/readme_images/System%20Diagrams/Usecase%20Diagram.jpg)
-
-2. Activity Diagram
-
-![Activity Diagram](https://github.com/rid17pawar/HospitalManagement/blob/master/readme_images/System%20Diagrams/Activity%20Diagram.png)
-
-3. Class Diagram
-
-![Class Diagram](https://github.com/rid17pawar/HospitalManagement/blob/master/readme_images/System%20Diagrams/Class%20Diagram.png)
-
-4. Sequence Diagram
-
-![Sequence Diagram](https://github.com/rid17pawar/HospitalManagement/blob/master/readme_images/System%20Diagrams/Sequence%20Diagram.png)
-
-5. State Diagram
-
-![State Diagram](https://github.com/rid17pawar/HospitalManagement/blob/master/readme_images/System%20Diagrams/State%20Diagram.png)
-
-### Thank You !
